@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name=“robots” content=“noindex, nofollow”>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="日本古来の素材と現代的表現を併せ持つ温泉旅館、石井花壇。伝統的「和」の息づく空間で、至極のひとときをお過ごしください。">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <!-- サイトタイトル -->
+  <title>お部屋 - 石井花壇｜温海温泉旅館【公式サイト】</title>
+  <!-- グーグルフォント -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- css読み込み -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/another.css">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="header-inner">
+      <div class="header-nav">
+        <h1 class="header-logo"><a href="../index.html">石井花壇</a></h1>
+        <a class="menu-btn" id="menu-btn"> <!--hrefがあるとjs効かない -->
+          <div></div>
+          <div></div>
+          <div></div>
+        </a>
+      </div><!-- /.header-nav -->
+
+      <nav class="header-menu" id="header-menu">
+        <ul class="menu-list" id="menu-list">
+          <li><a href="#">お部屋</a></li>
+          <li><a href="../meal/index.html">お料理</a></li>
+          <li><a href="../bath/index.html">温泉</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="reservation-btn">宿泊予約</a>
+
+      <div class="mask"></div><!-- /.mask -->
+
+      <div class="reservation-wrapper">
+        <h2 class="reservation-ttl">宿泊予約</h2>
+        <span class="close"><img src="../img/close.png" alt="close"></span>
+        <form action="#" method="POST">
+          <dl class="reservation-form">
+            <dt><label for="name">お名前</label></dt>
+            <dd><input type="text" name="name" id="name" placeholder="例 : 高橋暁"></dd>
+            <dt><label for="email">メールアドレス</label></dt>
+            <dd><input type="email" name="email" id="email" placeholder="例 : Exmaple@example.com"></dd>
+            <dt>ご希望プラン（空いているプランのみ表示されます）</dt>
+            <dd>
+              <div class="plan-select">
+                <select required>
+                  <optgroup label="宿泊プラン">
+                    <option value="" hidden>プランを選択してください</option>
+                    <option value="1">【期間限定】海辺の四季旬彩、贅沢美味懐石プラン</option>
+                    <option value="2">平日に優雅に楽しむ、特別宿泊プラン</option>
+                    <option value="3">絶景貸切露天と個室会席を満喫できるファミリープラン</option>
+                  </optgroup>
+                </select>
+              </div><!-- /.palm-select -->
+            </dd>
+            <dt>日時選択</dt>
+            <dd>
+              <div class="caleder">
+                <input type="text" class="flatpickr" id="flatpickr" placeholder="日時を選択してください" readonly="readonly">
+              </div><!-- /.caleder -->
+            </dd>
+          </dl>
+        </form>
+        <input type="submit" value="送信する" class="submit-btn">
+      </div><!-- /.reservation-wrapper -->
+
+    </div><!-- /.header-inner -->
+  </header><!-- /.header -->
+
+  <main>
+
+    <div class="fv" id="fv">
+      <div class="mainvisual rooms">
+        <h2 class="page-ttl">お部屋</h2>
+      </div><!-- /.mainvisual rooms -->
+    </div><!-- /#fv.fv -->
+    <div class="breadcrumb">
+      <ul>
+        <li><a href="../index.html">トップ</a></li>
+        <li>お部屋</li>
+      </ul>
+    </div><!-- /.breadcrumb -->
+    <div class="intro fadein">
+      <p>
+        <span>創業より受け継がれてきた石井花壇の和の造り</span><br>
+        <span>温海の雄大な絶景を堪能していただけるように設計された客室</span><br>
+        <span>ゆるやかに流れ行く時間に身を委ねて</span>
+      </p>
+    </div><!-- /.intro -->
+    <section class="section">
+      <div class="section-inner">
+        <div class="contents-wrapper fadein">
+          <div class="contents-img">
+            <img src="../img/oheya01.jpg" alt="">
+          </div><!-- /.contents-img -->
+          <div class="contents-txt">
+            <h3 class="contents-ttl">温泉付き客室</h3>
+            <p>温海の源泉かけ流し露天風呂付き客室になります。<br>
+              あなただけの上質な安らぎのひとときを。</p>
+            <ul class="note">
+              <li>＊部屋数に限りがございます。</li>
+              <li>＊洗い場はないため、お体を先に大浴場でお流しになって頂く必要があります。</li>
+            </ul>
+          </div><!-- /.contents-txt -->
+        </div><!-- /.contents-wrapper -->
+      </div><!-- /.section-inner -->
+    </section><!-- /.section -->
+    <section class="section">
+      <div class="section-inner">
+        <div class="contents-wrapper fadein">
+          <div class="contents-img">
+            <img src="../img/oheya02.jpg" alt="">
+          </div><!-- /.contents-img -->
+          <div class="contents-txt">
+            <h3 class="contents-ttl">庭園付き客室</h3>
+            <p>庭園付きの客室になります。<br>
+              お庭を見ながら、ほっとするひとときをお過ごしください。</p>
+            <ul class="note">
+              <li>＊お庭は複数のお客様と囲む形になります。</li>
+              <li>＊部屋数に限りがあります。</li>
+              <li>＊ご希望の方は「お抹茶/500円」をルームサービスさせていただきます。</li>
+            </ul>
+          </div><!-- /.contents-txt -->
+        </div><!-- /.contents-wrapper -->
+      </div><!-- /.section-inner -->
+    </section><!-- /.section -->
+    <section class="section">
+      <div class="section-inner">
+        <div class="contents-wrapper fadein">
+          <div class="contents-img">
+            <img src="../img/oheya03.jpg" alt="">
+          </div><!-- /.contents-img -->
+          <div class="contents-txt">
+            <h3 class="contents-ttl">一般客室</h3>
+            <p>最もベーシックな客室になります。<br class="sp">伝統の中にモダンさを取り入れた内装となっており、<br class="pc">とても過ごしやすくしていただけます。</p>
+            <ul class="note">
+              <li>＊全室お部屋より日本海を望むことができます。</li>
+            </ul>
+          </div><!-- /.contents-txt -->
+        </div><!-- /.contents-wrapper -->
+      </div><!-- /.section-inner -->
+    </section><!-- /.section -->
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="#">お部屋</a></li>
+          <li><a href="../meal/index.html">お料理</a></li>
+          <li><a href="../bath/index.html">温泉</a></li>
+        </ul>
+      </nav>
+      <div class="footer-logo">石井花壇</div><!-- /.footer-logo -->
+      <address>
+        <p><span class="zip">〒000-0000</span>山形県鶴岡市☓☓☓☓☓☓☓☓☓☓☓☓</p>
+        <p><span class="tel">TEL.<a href="tel:000-0000-0000">000-00000-0000</a></span>FAX.00-0000-0000</p>
+      </address>
+    </div><!-- /.footer-inner -->
+    <div class="cr">
+      <small>Copyright &copy; 石井花壇 All Rights Reserved.</small>
+    </div><!-- /.cr -->
+  </footer><!-- /.footer -->
+
+  <!-- js読み込み -->
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js" defer></script>
+  <script src="../js/main.js" defer></script>
+  
+</body>
+</html>
